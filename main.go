@@ -4,11 +4,10 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 
-	"./handler"
+	"github.com/myamyu/go-web-server-example/handler"
 )
 
 func main() {
-	println("hogehoge")
 	e := echo.New()
 
 	e.Use(middleware.Logger())
