@@ -15,3 +15,4 @@
 # vendor/
 
 .theia/
+__debug_bin
